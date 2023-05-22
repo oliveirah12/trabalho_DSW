@@ -10,7 +10,9 @@
 
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: #000;
+    background-image: url(/assets/background.jpg);
+    background-size:  contain;
     color: #ffffff;
 }
 
@@ -95,7 +97,7 @@ body {
 }
 
 .apresentacao__links__google:hover{
-    background-color: #272727;
+    background-color: #00c65d;
     height: 23px;
     width: 260px;
 }
