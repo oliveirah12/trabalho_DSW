@@ -13,14 +13,19 @@
     <!-- Latest compiled JavaScript 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles/style.css">
     <title>Document</title>
 </head>
 
 <body>
 
 
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu_link" href="https://google.com.br">Home</a>
+            <a class="cabecalho__menu_link" href="https://google.com.br">Home 2</a>
+        </nav>
+    </header>
 
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
@@ -31,13 +36,22 @@
                 suscipit perspiciatis!</p>
             <div class="apresentacao__links">
                 <h2 class="apresentacao__links__subtitulo">Links para acessar</h2>
-                <a class="apresentacao__links__google" href="https://google.com" target="_blank">Google</a>
-                <a class="apresentacao__links__google" href="https://google.com">Google 2</a>
+                <a class="apresentacao__links__google" href="https://google.com" target="_blank">
+                    <img class="apresentacao__links__imagem" src="/assets/Google.png" alt="">
+                    Google</a>
+                <a class="apresentacao__links__google" href="https://google.com">
+                    <img class="apresentacao__links__imagem" src="/assets/Google.png" alt="">
+                    Google 2
+                </a>
             </div>
         </section>
-        <img class="apresentacao__imagem" src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/imagem-em-lente-convexa.jpg"
-            alt="">
+        <img class="apresentacao__imagem" src="/assets/menu.png"
+            alt="img_menu">
     </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Jeromel</p>
+    </footer>
 
 
 
