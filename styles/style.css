@@ -17,8 +17,9 @@ body {
 }
 
 .cabecalho{
-
-    padding: 2% 0% 0% 0%;
+    padding: 1% 0% 1% 0%;
+    background-color: #00c65d66;
+    border-bottom: 1px solid #ffffff;
 }
 
 .cabecalho__menu{
@@ -31,7 +32,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 24px;
-    color: #00c65d;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -101,6 +102,8 @@ body {
     background-color: #00c65d;
     height: 23px;
     width: 280px;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 
 
