@@ -12,13 +12,13 @@
 body {
     background-color: #000;
     background-image: url(/assets/background.jpg);
-    background-size:  contain;
+    background-size:  cover;
     color: #ffffff;
 }
 
 .cabecalho{
 
-    padding: 2% 0% 0% 10%;
+    padding: 2% 0% 0% 0%;
 }
 
 .cabecalho__menu{
@@ -100,7 +100,7 @@ body {
 .apresentacao__links__google:hover{
     background-color: #00c65d;
     height: 23px;
-    width: 260px;
+    width: 280px;
 }
 
 

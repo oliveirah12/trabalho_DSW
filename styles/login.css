@@ -10,7 +10,7 @@
 
 
 body {
-    background-color: #000;
+    background-color: rgb(0, 0, 0);
     background-image: url(/assets/background.jpg);
     background-repeat: no-repeat;
     background-size:  cover;
@@ -18,7 +18,7 @@ body {
 }
 
 .cabecalho{
-    padding: 2% 0% 0% 10%;
+    padding: 2% 0% 0% 0%;
 }
 
 .cabecalho__menu{
@@ -42,8 +42,8 @@ body {
     flex-direction: column;
     margin: 10% 35%;
     border: 2px solid #ffffff;
-    border-radius: 10px;
-    background-color: #424242;
+    border-radius: 20px;
+    background-color: #00000066;
 }
 
 .login__container{
@@ -64,9 +64,14 @@ body {
 .login__container__text{
    height: 30px;
    font-size: 15px;
+   border-radius: 5px;
 }
 .login__container__text:focus{
     outline-color: #00c65d;
+}
+
+.login__container__separador{
+    margin: 10px 0px 10px 0px;
 }
 
 .login__container__botoes{
@@ -89,4 +94,10 @@ body {
 .login__container__botao:hover{
     background-color: #00c65d;
     cursor: pointer;
+}
+
+.login__container__recuperarSenha{
+    font-size: 12px;
+    text-decoration: underline;
+    color: #ffffff;
 }
