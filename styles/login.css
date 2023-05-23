@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-color: #000;
+    background-image: url(/assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size:  cover;
+    color: #ffffff;
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 10%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+    justify-content: space-around;
+}
+
+.cabecalho__menu_link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #00c65d;
+    text-decoration: none;
+}
+
+.login{
+    padding: 4% 2%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin: 10% 35%;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    background-color: #424242;
+}
+
+.login__container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    font-family: 'Krona One', sans-serif;
+}
+
+.login__container__username{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+}
+
+.login__container__text{
+   height: 30px;
+   font-size: 15px;
+}
+.login__container__text:focus{
+    outline-color: #00c65d;
+}
+
+.login__container__botoes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+    text-align: center;
+}
+
+.login__container__botao{
+    padding: 7px 0px;
+    border: 2px solid #ffffff;
+    border-radius: 7px;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.login__container__botao:hover{
+    background-color: #00c65d;
+    cursor: pointer;
+}
