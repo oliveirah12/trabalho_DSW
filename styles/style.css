@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Krona+One&family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+:root{
+    --cor-texto-primaria: #ffffff;
+    --cor-texto-secundaria: #00c65d;
+    --cor-texto-terciaria: #00c65dbb;
+    --cor-background: #000;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -10,16 +18,16 @@
 
 
 body {
-    background-color: #000;
+    background-color: var(--cor-background);
     background-image: url(/assets/background.jpg);
     background-size:  cover;
-    color: #ffffff;
+    color: var(--cor-texto-primaria);
 }
 
 .cabecalho{
     padding: 1% 0% 1% 0%;
-    background-color: #00c65dbb;
-    border-bottom: 1px solid #ffffff;
+    background-color: var(--cor-texto-terciaria);
+    border-bottom: 1px solid var(--cor-texto-primaria);
 }
 
 .cabecalho__menu{
@@ -32,7 +40,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 24px;
-    color: #ffffff;
+    color: var(--cor-texto-primaria);
     text-decoration: none;
 }
 
@@ -125,8 +133,8 @@ body {
 
 .rodape{
     padding: 12px;
-    color: #000;
-    background-color: #00c65d;
+    color: var(--cor-background);
+    background-color: var(--cor-texto-secundaria);
     text-align: center;
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
