@@ -2,6 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Krona+One&family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+:root{
+    --cor-verde-transparente: #00c65dbb;
+    --cor-verde-solido:#00c65d;
+    --cor-preto-transparente: #00000077;
+    --cor-preto-solido: #000000;
+    --cor-branco-solido: #ffffff;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -10,17 +19,17 @@
 
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color:var(--cor-preto-solido);
     background-image: url(/assets/background.jpg);
     background-repeat: no-repeat;
     background-size:  cover;
-    color: #ffffff;
+    color: var(--cor-branco-solido);
 }
 
 .cabecalho{
     padding: 1% 0% 1% 0%;
-    background-color: #00c65dbb;
-    border-bottom: 1px solid #ffffff;
+    background-color: var(--cor-verde-transparente);
+    border-bottom: 1px solid var(--cor-branco-solido);
 }
 
 .cabecalho__menu{
@@ -33,7 +42,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 24px;
-    color: #ffffff;
+    color: var(--cor-branco-solido);
     text-decoration: none;
 }
 
@@ -43,7 +52,7 @@ body {
     align-items: start;
     flex-direction: column;
     margin: 10% 35%;
-    border: 2px solid #ffffff;
+    border: 2px solid var(--cor-branco-solido);
     border-radius: 20px;
     background-color: #00000077;
 }
@@ -69,7 +78,7 @@ body {
    border-radius: 5px;
 }
 .login__container__text:focus{
-    outline-color: #00c65d;
+    outline-color: var(--cor-verde-solido);
 }
 
 .login__container__separador{
@@ -86,7 +95,7 @@ body {
 
 .login__container__botao{
     padding: 7px 0px;
-    border: 2px solid #ffffff;
+    border: 2px solid var(--cor-branco-solido);
     border-radius: 7px;
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
@@ -94,12 +103,12 @@ body {
 }
 
 .login__container__botao:hover{
-    background-color: #00c65d;
+    background-color: var(--cor-verde-solido);
     cursor: pointer;
 }
 
 .login__container__recuperarSenha{
     font-size: 12px;
     text-decoration: underline;
-    color: #ffffff;
+    color: var(--cor-branco-solido)
 }
