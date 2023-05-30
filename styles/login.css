@@ -94,12 +94,15 @@ body {
 }
 
 .login__container__botao{
+    background-color: var(--cor-branco-solido);
+    color: var(--cor-preto-solido);
     padding: 7px 0px;
     border: 2px solid var(--cor-branco-solido);
     border-radius: 7px;
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
     font-size: 15px;
+    text-decoration: none;
 }
 
 .login__container__botao:hover{
