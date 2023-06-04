@@ -20,7 +20,7 @@
 body {
    /*  background-color: aqua; */
     /* background-image: linear-gradient(to right, #6165ff, #5155f7, #3f44ef, #2a32e6, #001ddd); */
-    background-image: url(/assets/foto.jpg);
+    background-image: url(/assets/plantacao-de-soja.png);
     background-size:  cover;
     color: var(--cor-texto-primaria);
 }
