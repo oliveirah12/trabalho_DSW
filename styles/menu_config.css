@@ -52,39 +52,23 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 42px;
-    transition: background-color 0.2s ;
+    height: 40px;
+    transition: background-color .2s, width .2s ;
     text-align: end;
     width: 300px;
     border-radius: 0px 5px 5px 0px ;
 }
 
+.container__colunas__botoes:hover{
+    background-color: #00c65d;
+    height: 36px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 320px;
+}
+
 .container__colunas__botoes img{
     width: 60px;
-}
-
-.botao_historico{
-
-}
-
-.botao_alarmes{
-    
-}
-
-.botao_altParam{
-    
-}
-
-.botao_visTempoReal{
-    
-}
-
-.botao_manual{
-    
-}
-
-.botao_manutencao{
-    
 }
 
 
@@ -135,9 +119,7 @@ body {
 
 }
 
-.container__colunas__botoes:hover{
-    background-color: #00c65d;
-}
+
 
 
 
