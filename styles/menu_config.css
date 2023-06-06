@@ -27,6 +27,59 @@ body {
     /* border: solid 2px white; */
 }
 
+.container__colunas__botoes{
+    border: 2px solid rgb(0, 0, 0); 
+    padding: 20px;
+    text-decoration: none;
+    color: var(--cor-background);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: var(--cor-texto-primaria);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    width: 18.6rem;
+    transition: background-color .2s, width .2s ;
+    text-align: end;
+    border-radius: 0px 5px 5px 0px ;
+    
+}
+
+.container__colunas__botoes:hover{
+    background-color: #00c65d;
+    height: 26px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 20rem;
+}
+
+.container__colunas img{
+    width: 60px;
+}
+
+
+.container__colunas__botoes__botao__selecionado{
+    border: 2px solid rgb(0, 0, 0); 
+    padding: 20px;
+    text-decoration: none;
+    color: var(--cor-background);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: end;
+    border-radius: 0px 5px 5px 0px ;
+    background-color: #00c65d;
+    height: 26px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 20rem;
+}
+
 main{
     background-color: #ffffffbb;
     width: 85%;
@@ -42,6 +95,7 @@ main{
 .bloco__nao__mexivel{
     border: solid 2px chocolate;
     width: 300px;
+
 }
 
 .bloco__mexivel{
@@ -53,6 +107,8 @@ main{
 }
 
 .bloco__mexivel__elemento{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     color: var(--cor-background);
     display: flex;
     align-items: center;
@@ -83,35 +139,7 @@ main{
     gap: 5px;
 }
 
-.container__colunas__botoes{
-    border: 2px solid rgb(0, 0, 0); 
-    padding: 20px;
-    text-decoration: none;
-    color: var(--cor-background);
-    font-family: 'Krona One', sans-serif;
-    font-size: 1.2rem;
-    background-color: var(--cor-texto-primaria);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 30px;
-    width: 18.6rem;
-    transition: background-color .2s, width .2s ;
-    text-align: end;
-    border-radius: 0px 5px 5px 0px ;
-}
 
-.container__colunas__botoes:hover{
-    background-color: #00c65d;
-    height: 26px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    width: 20rem;;
-}
-
-.container__colunas__botoes img{
-    width: 60px;
-}
 
 
 
