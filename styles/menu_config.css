@@ -56,8 +56,10 @@ body {
     width: 20rem;
 }
 
+
 .container__colunas img{
     width: 60px;
+    transition: .2s;
 }
 
 
