@@ -24,6 +24,7 @@ body {
     background-repeat: no-repeat;
     background-size:  cover;
     color: var(--cor-branco-solido);
+    
 }
 
 .cabecalho{
@@ -51,7 +52,7 @@ body {
     display: flex;
     align-items: start;
     flex-direction: column;
-    margin: 10% 35%;
+    margin: 5% 35%;
     border: 2px solid var(--cor-branco-solido);
     border-radius: 20px;
     background-color: #00000077;

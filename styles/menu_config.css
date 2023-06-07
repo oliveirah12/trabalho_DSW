@@ -3,10 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root{
-    --cor-texto-primaria: #ffffff;
-    --cor-texto-secundaria: #00c65d;
-    --cor-texto-terciaria: #00c65dbb;
-    --cor-background: #000;
+    --cor-branco-solido: #ffffff;
+    --cor-verde-solido: #00c65d;
+    --cor-verde-transparente: #00c65dbb;
+    --cor-preto-solido: #000;
+    --cor-branco-transparente: #ffffffbb;
 }
 
 
@@ -23,7 +24,7 @@ body {
     background-image: url(/assets/plantacao-de-soja.png);
     background-size:  cover;
     background-repeat: no-repeat;
-    color: var(--cor-texto-primaria);
+    color: var(--cor-branco-solido);
     /* border: solid 2px white; */
 }
 
@@ -31,11 +32,11 @@ body {
     border: 2px solid rgb(0, 0, 0); 
     padding: 20px;
     text-decoration: none;
-    color: var(--cor-background);
+    color: var(--cor-preto-solido);
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 1.2rem;
-    background-color: var(--cor-texto-primaria);
+    background-color: var(--cor-branco-solido);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -48,7 +49,7 @@ body {
 }
 
 .container__colunas__botoes:hover{
-    background-color: #00c65d;
+    background-color: var(--cor-verde-solido);
     height: 26px;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -61,10 +62,10 @@ body {
 
 
 .container__colunas__botoes__botao__selecionado{
-    border: 2px solid rgb(0, 0, 0); 
+    border: 2px solid var(--cor-preto-solido); 
     padding: 20px;
     text-decoration: none;
-    color: var(--cor-background);
+    color: var(--cor-preto-solido);
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 1.2rem;
@@ -73,7 +74,7 @@ body {
     justify-content: space-between;
     text-align: end;
     border-radius: 0px 5px 5px 0px ;
-    background-color: #00c65d;
+    background-color: var(--cor-verde-solido);
     height: 26px;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -81,12 +82,12 @@ body {
 }
 
 main{
-    background-color: #ffffffbb;
+    background-color: var(--cor-branco-transparente);
     width: 85%;
     height: 90vh;
     margin: 2rem auto 0;
     border-radius: 20px;
-    border: 2px solid #000;
+    border: 2px solid var(--cor-preto-solido);
     display: flex;
 
 }
@@ -109,7 +110,7 @@ main{
 .bloco__mexivel__elemento{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    color: var(--cor-background);
+    color: var(--cor-preto-solido);
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -121,7 +122,7 @@ main{
 .container {
     display: flex;
     flex-direction: column;
-    /* border: 2px solid var(--cor-texto-primaria);  */
+    /* border: 2px solid var(--cor-branco-solido);  */
     width: 400px;
 }
 

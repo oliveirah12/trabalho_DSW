@@ -3,10 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root{
-    --cor-texto-primaria: #ffffff;
-    --cor-texto-secundaria: #00c65d;
-    --cor-texto-terciaria: #00c65dbb;
-    --cor-background: #000;
+    --cor-branco-solido: #ffffff;
+    --cor-verde-solido: #00c65d;
+    --cor-verde-transparente: #00c65dbb;
+    --cor-preto-solido: #000;
 }
 
 
@@ -18,16 +18,16 @@
 
 
 body {
-    background-color: var(--cor-background);
+    background-color: var(--cor-preto-solido);
     background-image: url(/assets/background.jpg);
     background-size:  cover;
-    color: var(--cor-texto-primaria);
+    color: var(--cor-branco-solido);
 }
 
 .cabecalho{
     padding: 1% 0% 1% 0%;
-    background-color: var(--cor-texto-terciaria);
-    border-bottom: 1px solid var(--cor-texto-primaria);
+    background-color: var(--cor-verde-transparente);
+    border-bottom: 1px solid var(--cor-branco-solido);
 }
 
 .cabecalho__menu{
@@ -40,7 +40,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 24px;
-    color: var(--cor-texto-primaria);
+    color: var(--cor-branco-solido);
     text-decoration: none;
 }
 
@@ -67,7 +67,7 @@ body {
 }
 
 .destaque_titulo {
-    color: #00c65d;
+    color: var(--cor-verde-solido);
 }
 
 .apresentacao__conteudo__texto {
@@ -93,14 +93,14 @@ body {
     justify-content: center;
     gap: 10px;
     display: flex;
-    border: 2px solid #00c65d;
-    background-color: #00000077;
+    border: 2px solid var(--cor-verde-solido);
+    background-color: var(--cor-preto-solido);
     width: 250px;
     text-align: center;
     border-radius: 5px;
     font-size: 20px;
     padding: 10px 0;
-    color: rgb(255, 255, 255);
+    color: var(--cor-branco-solido);
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     text-decoration: none;
@@ -109,15 +109,7 @@ body {
 }
 
 .apresentacao__links__google:hover{
-    background-color: #00c65d;
-    height: 23px;
-    width: 280px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-}
-
-.botao__alarme{
-    background-color: #00c65d;
+    background-color: var(--cor-verde-solido);
     height: 23px;
     width: 280px;
     margin-top: 1px;
@@ -140,8 +132,8 @@ body {
 
 .rodape{
     padding: 12px;
-    color: var(--cor-background);
-    background-color: var(--cor-texto-secundaria);
+    color: var(--cor-preto-solido);
+    background-color: var(--cor-verde-solido);
     text-align: center;
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
