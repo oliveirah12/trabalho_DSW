@@ -24,8 +24,8 @@ body {
     background-size:  cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: var(--cor-branco-solido);
-    
+    color: var(--cor-branco-solido);    
+    height: 100vh;
 }
 
 .cabecalho{
