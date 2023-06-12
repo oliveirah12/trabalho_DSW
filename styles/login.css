@@ -21,8 +21,9 @@
 body {
     background-color:var(--cor-preto-solido);
     background-image: url(/assets/background.jpg);
-    background-repeat: no-repeat;
     background-size:  cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: var(--cor-branco-solido);
     
 }
@@ -31,11 +32,12 @@ body {
     padding: 1% 0% 1% 0%;
     background-color: var(--cor-verde-transparente);
     border-bottom: 1px solid var(--cor-branco-solido);
+    width: auto;
 }
 
 .cabecalho__menu{
     display: flex;
-    gap: 80px;
+    gap: 5%;
     justify-content: space-around;
 }
 
