@@ -42,7 +42,7 @@ body {
 .cabecalho__menu_link{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--cor-branco-solido);
     text-decoration: none;
 }
@@ -75,7 +75,7 @@ body {
 
 .login__container__text{
    height: 30px;
-   font-size: 15px;
+   font-size: 1rem;
    border-radius: 5px;
 }
 .login__container__text:focus{
@@ -102,7 +102,7 @@ body {
     border-radius: 7px;
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 1rem;
     text-decoration: none;
 }
 
@@ -112,7 +112,7 @@ body {
 }
 
 .login__container__recuperarSenha{
-    font-size: 12px;
+    font-size: 0.75rem;
     text-decoration: underline;
     color: var(--cor-branco-solido)
 }

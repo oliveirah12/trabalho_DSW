@@ -23,7 +23,7 @@ body {
     /* background-image: linear-gradient(to right, #6165ff, #5155f7, #3f44ef, #2a32e6, #001ddd); */
     background-image: url(/assets/plantacao-de-soja.png);
     background-size:  cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     color: var(--cor-branco-solido);
     /* border: solid 2px white; */
 }
@@ -96,13 +96,13 @@ main{
 
 
 .bloco__nao__mexivel{
-    border: solid 2px chocolate;
+    /* border: solid 2px chocolate; */
     width: 300px;
-
+    position: static;
 }
 
 .bloco__mexivel{
-    border: solid 2px rgb(210, 30, 186);
+    /* border: solid 2px rgb(210, 30, 186); */
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -116,7 +116,7 @@ main{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    border: solid 2px  cyan;
+    /* border: solid 2px  cyan; */
     width: 28%;
     margin: 10px;
 }
