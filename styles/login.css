@@ -116,3 +116,9 @@ body {
     text-decoration: underline;
     color: var(--cor-branco-solido)
 }
+
+@media (max-width: 1100px){
+    .login{
+        margin: 5% 15%;
+    }
+}
