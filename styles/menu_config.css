@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root{
+    --cor-branco-solido: #ffffff;
+    --cor-verde-solido: #00c65d;
+    --cor-verde-transparente: #00c65dbb;
+    --cor-preto-solido: #000;
+    --cor-branco-transparente: #ffffffbb;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+   /*  background-color: aqua; */
+    /* background-image: linear-gradient(to right, #6165ff, #5155f7, #3f44ef, #2a32e6, #001ddd); */
+    background-image: url(/assets/plantacao-de-soja.png);
+    background-size:  cover;
+    background-repeat: repeat-y;
+    color: var(--cor-branco-solido);
+    /* border: solid 2px white; */
+}
+
+.container__colunas__botoes{
+    border: 2px solid rgb(0, 0, 0); 
+    padding: 20px;
+    text-decoration: none;
+    color: var(--cor-preto-solido);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: var(--cor-branco-solido);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    width: 18.6rem;
+    transition: background-color .2s, width .2s ;
+    text-align: end;
+    border-radius: 0px 5px 5px 0px ;
+    
+}
+
+.container__colunas__botoes:hover{
+    background-color: var(--cor-verde-solido);
+    height: 26px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 20rem;
+}
+
+
+.container__colunas img{
+    width: 60px;
+    transition: .2s;
+}
+
+
+.container__colunas__botoes__botao__selecionado{
+    border: 2px solid var(--cor-preto-solido); 
+    padding: 20px;
+    text-decoration: none;
+    color: var(--cor-preto-solido);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: end;
+    border-radius: 0px 5px 5px 0px ;
+    background-color: var(--cor-verde-solido);
+    height: 26px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 20rem;
+}
+
+main{
+    background-color: var(--cor-branco-transparente);
+    width: 85%;
+    height: 90vh;
+    margin: 2rem auto 0;
+    border-radius: 20px;
+    border: 2px solid var(--cor-preto-solido);
+    display: flex;
+
+}
+
+
+.bloco__nao__mexivel{
+    /* border: solid 2px chocolate; */
+    width: 300px;
+    position: static;
+}
+
+.bloco__mexivel{
+    /* border: solid 2px rgb(210, 30, 186); */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bloco__mexivel__elemento{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--cor-preto-solido);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: solid 2px  cyan; */
+    width: 28%;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid var(--cor-branco-solido);  */
+    width: 400px;
+}
+
+.container section {
+    position: fixed;
+    top: 3.5rem;
+}
+
+
+
+.container__colunas{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid wheat;  */
+    gap: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
