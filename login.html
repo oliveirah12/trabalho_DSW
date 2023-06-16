@@ -23,19 +23,18 @@
         <section class="login">
             <form class="login__container" action="">
                 <div class="login__container__username">
-                    <label for="">Login</label>
-                    <input class="login__container__text" type="text">
+                    <label for="username">Login</label>
+                    <input id="username" class="login__container__text" type="text">
                 </div>
                 <div class="login__container__username">
-                    <label for="">Senha</label>
-                    <input class="login__container__text" type="text">
+                    <label for="password">Senha</label>
+                    <input id="password" class="login__container__text" type="password">
                 </div>
                 <hr class="login__container__separador">
                 <div class="login__container__botoes">
-                    <a class="login__container__botao" type="button" href="/menu_config.html">Login</a>
+                    <button id="loginButton" class="login__container__botao" type="button">Login</button>
                     <label for="">ou</label>
                     <a class="login__container__botao" type="button" href="/menu_config.html">Cadastre-se</a>
-                    <!-- <a class="login__container__botao" type="button" value="Cadastre-se"> -->
                 </div>
                 <div>
                     <a class="login__container__recuperarSenha" href="">Recuperar Senha</a>
@@ -46,6 +45,8 @@
 
     <footer class="rodape"></footer>
 
-    
+    <script src="JS\login.js"></script>
 </body>
 </html>
+
+
