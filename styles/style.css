@@ -278,4 +278,9 @@ body {
     .apresentacao__imagem{
         width: 60%;
     }
+
+    .planos__caixas{
+        width: 50%;
+    }
+
 }
